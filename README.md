@@ -1,94 +1,105 @@
-# 📚 My AI Learning Notes
+# 🤖 AI学习笔记 🚀
 
-🔍 **Table of Contents**
-- [📚 My AI Learning Notes](#-my-ai-learning-notes)
-  - [🏆 Repository Status](#-repository-status)
-  - [📌 Introduction](#-introduction)
-  - [📈 Learning Roadmap](#-learning-roadmap)
-  - [🚀 Project Showcase](#-project-showcase)
-  - [📖 Curated Resources](#-curated-resources)
-    - [📚 Books](#-books)
-    - [🎓 Online Courses](#-online-courses)
-    - [🛠️ Essential Tools](#️-essential-tools)
-  - [🧑‍🏫 Standing on Shoulders](#-standing-on-shoulders)
-  - [🤝 Contributing](#-contributing)
-  - [📜 License](#-license)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jiarenyou/my-ai-notes/main/assets/ai_banner.png" alt="AI Banner" width="800"/>
+</p>
 
-## 🏆 Repository Status
+<p align="center">
+  <a href="https://github.com/jiarenyou/my-ai-notes/commits/main">
+    <img src="https://img.shields.io/github/last-commit/jiarenyou/my-ai-notes?style=for-the-badge&logo=github&color=blue" alt="最后提交">
+  </a>
+  <a href="https://github.com/jiarenyou/my-ai-notes/stargazers">
+    <img src="https://img.shields.io/github/stars/jiarenyou/my-ai-notes?style=for-the-badge&logo=github&color=yellow" alt="收藏数">
+  </a>
+  <a href="https://github.com/jiarenyou/my-ai-notes/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/jiarenyou/my-ai-notes?style=for-the-badge&color=green" alt="许可证">
+  </a>
+  <a href="https://blog.csdn.net/m0_57280180?type=blog">
+    <img src="https://img.shields.io/badge/CSDN-博客-orange?style=for-the-badge&logo=csdn" alt="CSDN博客">
+  </a>
+</p>
 
-![GitHub last commit](https://img.shields.io/github/last-commit/jiarenyou/my-ai-notes?style=for-the-badge)
-![GitHub repo stars](https://img.shields.io/github/stars/jiarenyou/my-ai-notes?style=for-the-badge)
-![GitHub license](https://img.shields.io/github/license/jiarenyou/my-ai-notes?style=for-the-badge)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/your-profile/)
-[![CSDN Blog](https://img.shields.io/badge/CSDN-Blog-orange?style=for-the-badge)](https://blog.csdn.net/m0_57280180?type=blog)
+---
 
-## 📌 Introduction
+### 🌟 **关于我**
 
-> Welcome to my AI learning repository! This is where I document my journey into the world of artificial intelligence, from foundational theories to hands-on projects. My current focus areas are **Natural Language Processing** and **Generative AI**. 
+> 欢迎来到我的AI学习笔记仓库！这里是我探索人工智能世界的个人空间，记录了从理论基础到实践项目的全过程。我目前专注于 **自然语言处理 (NLP)** 和 **生成式AI (Generative AI)** 领域。
 
-This repository serves as:
-- 📝 My personal knowledge base
-- 🎨 Project portfolio
-- 📊 Learning progress tracker
+这个仓库是我的：
+- 🧠 **个人知识库** - 沉淀学习和思考
+- 🛠️ **项目作品集** - 展示学习成果
+- 📈 **成长路线图** - 记录学习轨迹
 
-## 📈 Learning Roadmap
+---
 
-This dynamic document outlines my structured learning plan, updated regularly with my progress.
+### 🗺️ **学习路线图**
 
-| Category | Topic | Status | Notes/Links |
+这份路线图动态记录了我的学习计划和进度。
+
+| 分类 | 主题 | 状态 | 笔记/链接 |
 | :--- | :--- | :---: | :--- |
-| **Foundations** | Linear Algebra & Calculus | ✅ Done | `[Notes](./01-foundations/mathematics/)` |
-| | Probability & Statistics | 🟡 In Progress | `[Notes](./01-foundations/mathematics/)` |
-| | Python for Data Science | ✅ Done | `[Notes](./01-foundations/programming_python/)` |
-| **Machine Learning** | Supervised Learning | 🟡 In Progress | `[Notes](./02-machine-learning-core/supervised_learning/)` |
-| | Unsupervised Learning | ⚫ Todo | |
-| | Model Evaluation | ⚫ Todo | |
-| **Deep Learning** | Neural Networks & Backpropagation | ⚫ Todo | |
-| | Computer Vision (CNNs) | ⚫ Todo | |
-| | NLP (Transformers) | ⚫ Todo | |
-| **MLOps** | Docker & Containerization | ⚫ Todo | |
-| | Model Deployment | ⚫ Todo | |
+| **基础知识** | 线性代数 & 微积分 | ✅ 完成 | `[笔记](./01-foundations/mathematics/)` |
+| | 概率论 & 统计学 | 🟡 进行中 | `[笔记](./01-foundations/mathematics/)` |
+| | Python数据科学 | ✅ 完成 | `[笔记](./01-foundations/programming_python/)` |
+| **机器学习** | 监督学习 | 🟡 进行中 | `[笔记](./02-machine-learning-core/supervised_learning/)` |
+| | 无监督学习 | ⚫ 待办 | |
+| | 模型评估 | ⚫ 待办 | |
+| **深度学习** | 神经网络 & 反向传播 | ⚫ 待办 | |
+| | 计算机视觉 (CNNs) | ⚫ 待办 | |
+| | 自然语言处理 (Transformers) | ⚫ 待办 | |
+| **MLOps** | Docker & 容器化 | ⚫ 待办 | |
+| | 模型部署 | ⚫ 待办 | |
 
-## 🚀 Project Showcase
+---
 
-Here are some of my projects applying AI knowledge to solve practical problems.
+### 🚀 **项目展示**
 
-| Project | Description | Tech Stack | Links |
+这里是我将理论知识应用于实践的一些项目。
+
+| 项目 | 描述 | 技术栈 | 链接 |
 | :--- | :--- | :--- | :--- |
-| **Sentiment Analyzer** | Web app classifying movie reviews using fine-tuned BERT | `Python`, `PyTorch`, `Hugging Face`, `Flask` | `[Code](./projects/sentiment_analyzer/)` |
-| **Image Classifier** | CNN trained from scratch on CIFAR-10 (>90% accuracy) | `Python`, `TensorFlow`, `Keras` | `[Code](./projects/image_classifier/)` |
-| **InternLM3-8B Paper Classification** | Fine-tuned InternLM3-8B on arXiv papers (71.2% accuracy) | `Swift`, `PyTorch`, `OpenCompass` | `[Blog](https://blog.csdn.net/m0_57280180/article/details/149289311)` |
-| **RAG Car Q&A** | RAG demo using car manuals as knowledge base | `Python`, `PyTorch`, `RAG` | `[Notebook](./projects/RAG/RAG汽车智能问答.ipynb)` |
-| **Arabic Fine-tuning** | Low-resource language fine-tuning practice | `Python`, `PyTorch` | `[Notebook](./projects/fine-tuning/阿拉伯语微调实践.ipynb)` |
+| 🎬 **情感分析器** | 使用微调BERT模型对电影评论进行分类的Web应用 | `Python`, `PyTorch`, `Hugging Face`, `Flask` | `[代码](./projects/sentiment_analyzer/)` |
+| 🖼️ **图像分类器** | 从零训练CNN模型，在CIFAR-10上准确率超过90% | `Python`, `TensorFlow`, `Keras` | `[代码](./projects/image_classifier/)` |
+| 📄 **InternLM3-8B论文分类** | 在arXiv数据集上微调InternLM3-8B (准确率71.2%) | `Swift`, `PyTorch`, `OpenCompass` | `[博客](https://blog.csdn.net/m0_57280180/article/details/149289311)` |
+| 🚗 **RAG汽车问答** | 基于汽车手册知识库的RAG问答系统 | `Python`, `PyTorch`, `RAG` | `[Notebook](./projects/RAG/RAG汽车智能问答.ipynb)` |
+| 🌍 **阿拉伯语微调** | 低资源语言微调实践 | `Python`, `PyTorch` | `[Notebook](./projects/fine-tuning/阿拉伯语微调实践.ipynb)` |
 
-## 📖 Curated Resources
+---
 
-My personal collection of high-quality AI/ML learning resources:
+### 📚 **精选资源**
 
-### 📚 Books
-- [Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/) by Aurélien Géron
-- [Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python-second-edition) by François Chollet
+我个人收藏的高质量AI/ML学习资源。
 
-### 🎓 Online Courses
-- [Andrew Ng's Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)
-- [fast.ai - Practical Deep Learning](https://course.fast.ai/)
+#### 📖 **书籍**
+- [《动手学机器学习》(Hands-On Machine Learning)](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/)
+- [《Python深度学习》(Deep Learning with Python)](https://www.manning.com/books/deep-learning-with-python-second-edition)
 
-### 🛠️ Essential Tools
-- [Hugging Face](https://huggingface.co/) - NLP model hub
-- [Weights & Biases](https://wandb.ai/) - Experiment tracking
-- [Papers with Code](https://paperswithcode.com/) - Latest research papers
+#### 🎓 **在线课程**
+- [吴恩达机器学习专项课程](https://www.coursera.org/specializations/machine-learning-introduction)
+- [fast.ai - 深度学习实战](https://course.fast.ai/)
 
-## 🧑‍🏫 Standing on Shoulders
+#### 🛠️ **必备工具**
+- [Hugging Face](https://huggingface.co/) - NLP模型中心
+- [Weights & Biases](https://wandb.ai/) - 实验跟踪
+- [Papers with Code](https://paperswithcode.com/) - 最新研究论文
 
-Inspiration from leading experts in the field:
-- [LLM Zhang's Blog](https://www.waylandz.com/) - Chinese NLP expert
+---
 
-## 🤝 Contributing
+### 🧑‍🏫 **巨人肩膀**
 
-While primarily for my personal learning, I welcome suggestions and feedback! If you spot errors or have improvement ideas, please:
-1. Open an Issue to discuss
-2. Fork the repo and submit a Pull Request
+领域内专家的启发：
+- [LLM张老师的博客](https://www.waylandz.com/) - 中文NLP专家
 
-## 📜 License
+---
 
-This project is licensed under the **MIT License** - see the [LICENSE](./LICENSE) file for details.
+### 🤝 **贡献**
+
+虽然这主要是我的个人学习仓库，但我非常欢迎任何建议和反馈！如果你发现错误或有改进想法，请：
+1. 提交一个Issue进行讨论
+2. Fork仓库并提交Pull Request
+
+---
+
+### 📜 **许可证**
+
+本项目采用 **MIT许可证** 授权 - 详情请见 [LICENSE](./LICENSE) 文件。

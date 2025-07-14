@@ -1,7 +1,7 @@
 # 🤖 AI学习笔记 🚀
 
 <p align="center">
-  <img src="utils\png\owl-7431340_1280.jpg" alt="AI Banner" width="800"/>
+  <img src="https://raw.githubusercontent.com/jiarenyou/my-ai-notes/main/assets/ai_banner.png" alt="AI Banner" width="800"/>
 </p>
 
 <p align="center">

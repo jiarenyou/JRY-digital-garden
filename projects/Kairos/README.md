@@ -54,8 +54,8 @@
 
 1.  **克隆项目**
     ```bash
-    git clone https://github.com/jiarenyou/Meditations.git
-    cd Meditations
+    git clone https://github.com/jiarenyou/Kairos.git
+    cd Kairos
     ```
 
 2.  **安装前端依赖**

@@ -1,7 +1,7 @@
 # 🤖 AI学习笔记 🚀
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jiarenyou/my-ai-notes/main/assets/ai_banner.png" alt="AI Banner" width="800"/>
+  <img src="utils\png\owl-7431340_1280.jpg" alt="AI Banner" width="800"/>
 </p>
 
 <p align="center">
@@ -102,8 +102,34 @@
 ---
 
 ### 📊 **精品网站**
-- [收藏网站](https://www.notion.so/244260a7fa8080478e57ef18ed85c112?v=244260a7fa80802394a7000cd02fa71a&source=copy_link)
-
+<div style="display: flex;">
+  <div style="flex: 1;">
+    <a href="https://github.com/mlabonne/llm-course" target="_blank">LLM Course</a>
+  </div>
+  <div style="flex: 1;">
+    <a href="https://github.com/ashishpatel26/500-AI-Agents-Projects" target="_blank">500-AI-Agents-Projects</a>
+  </div>
+  <div style="flex: 1;">
+    <a href="https://github.com/datawhalechina/thorough-pytorch" target="_blank">Pytorch学习</a>
+  </div>
+  <div style="flex: 1;">
+    <a href="https://latentbox.com/zh/awesome-ai-products" target="_blank">awesome-ai-products</a>
+  </div>
+</div>
+<div style="display: flex;">
+  <div style="flex: 1;">
+    <a href="https://github.com/datawhalechina/llm-cookbook" target="_blank">面向入门者的LLM课程--吴恩达</a>
+  </div>
+  <div style="flex: 1;">
+    <a href="https://roadmap.sh/" target="_blank">500-AI-Agents-Projects</a>
+  </div>
+  <div style="flex: 1;">
+    <a href="https://github.com/datawhalechina/thorough-pytorch" target="_blank">LLM学习路线图</a>
+  </div>
+  <div style="flex: 1;">
+    <a href="https://github.com/Lordog/dive-into-llms" target="_blank">上海交通大学LLM课</a>
+  </div>
+</div>
 
 ### 🤝 **贡献**
 

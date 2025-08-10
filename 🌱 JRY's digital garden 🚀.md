@@ -3,6 +3,28 @@ title: "欢迎来到我的博客"
 description: "个人技术博客，分享学习笔记、文章、项目和案例收集"
 ---
 
+  
+
+![owl-7431340_1280.jpg](https://build-web.oss-cn-qingdao.aliyuncs.com/my_pic_file/owl-7431340_1280.jpg)
+
+  
+
+<p align="center">
+  <!-- GitHub -->
+  <a href="https://github.com/jiarenyou/my-ai-notes" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+
+  <!-- CSDN -->
+  <a href="https://blog.csdn.net/m0_57280180?type=blog" target="_blank">
+    <img src="https://img.shields.io/badge/CSDN-博客-C71D23?style=for-the-badge&logo=csdn" alt="CSDN博客">
+  </a>
+
+  <!-- 知乎 -->
+  <a href="https://www.zhihu.com/people/你的知乎ID" target="_blank">
+    <img src="https://img.shields.io/badge/知乎-0084FF?style=for-the-badge&logo=zhihu&logoColor=white" alt="知乎">
+  </a>
+</p>
 
 
 这里是我的个人技术博客，用于分享学习过程中的笔记、思考、项目和收集的优秀案例。希望这些内容能够对你有所帮助。

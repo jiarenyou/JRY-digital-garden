@@ -1,126 +1,52 @@
 
-
 # 🌱 JRY's digital garden 🚀
 
-![owl-7431340_1280.jpg](https://build-web.oss-cn-qingdao.aliyuncs.com/my_pic_file/owl-7431340_1280.jpg)
+### 🌟# 🌱 欢迎来到我的数字花园 🌱
 
-<p align="center">
-  <a href="https://github.com/jiarenyou/my-ai-notes/commits/main">
-    <img src="https://img.shields.io/github/last-commit/jiarenyou/my-ai-notes?style=for-the-badge&logo=github&color=blue" alt="最后提交">
-  </a>
-  <a href="https://github.com/jiarenyou/my-ai-notes/stargazers">
-    <img src="https://img.shields.io/github/stars/jiarenyou/my-ai-notes?style=for-the-badge&logo=github&color=yellow" alt="收藏数">
-  </a>
-  <a href="https://github.com/jiarenyou/my-ai-notes/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/jiarenyou/my-ai-notes?style=for-the-badge&color=green" alt="许可证">
-  </a>
-  <a href="https://blog.csdn.net/m0_57280180?type=blog">
-    <img src="https://img.shields.io/badge/CSDN-博客-orange?style=for-the-badge&logo=csdn" alt="CSDN博客">
-  </a>
-</p>
+![[peace butterfly Sticker.gif]]
+你好，我是Zeno's Tortoise！很高兴你能在浩瀚的互联网中发现我的这片小小园地。
+
+这里不只是一个传统的博客，更是我用心栽培的 **数字花园 (Digital Garden)**。
 
 ---
 
-### 🌟 **关于我**
+### 我的理念 | My Philosophy
 
-> 欢迎来到我的数字花园！这里是我的个人知识空间，记录了从理论基础到实践项目的全过程。我目前专注于 **自然语言处理 (NLP)** 和 **生成式AI (Generative AI)** 领域，同时也会分享其他有趣的主题。
+我一直坚信，掌握知识最好的方式是三步：**学习 ➔ 内化 ➔ 输出**。
+![[Gemini_Generated_Image_frh6wifrh6wifrh6.png]]
+这个花园，就是我实践这一理念的媒介。它是我：
+* 🧠 **知识的沉淀池**：记录我学习技术、阅读书籍、探索新领域的笔记与总结。
+* ✍️ **思想的孵化器**：分享我对技术、生活与个人成长的深度思考与感悟。
+* 🛠️ **项目的展示台**：展示我动手实践的个人项目，记录从一个想法到最终实现的全部过程。
 
-这个数字花园是我的：
-
-- 🧠 **个人知识库** - 沉淀学习和思考
-- 🛠️ **项目作品集** - 展示学习成果
-- 📈 **成长路线图** - 记录学习轨迹
-- 🌿 **思想实验室** - 探索新的想法
-
----
-
-### 🗺️ **学习路线图**
-
-这份路线图动态记录了我的学习计划和进度。
-
-
-| 分类         | 主题                        |   状态   | 笔记/链接                                                 |
-| :------------- | :---------------------------- | :---------: | :---------------------------------------------------------- |
-| **基础知识** | 线性代数 & 微积分           |  ✅ 完成  | `[笔记](./01-foundations/mathematics/)`                   |
-|              | 概率论 & 统计学             | 🟡 进行中 | `[笔记](./01-foundations/mathematics/)`                   |
-|              | Python数据科学              |  ✅ 完成  | `[笔记](./01-foundations/programming_python/)`            |
-| **机器学习** | 监督学习                    | 🟡 进行中 | `[笔记](./02-machine-learning-core/supervised_learning/)` |
-|              | 无监督学习                  |  ⚫ 待办  |                                                           |
-|              | 模型评估                    |  ⚫ 待办  |                                                           |
-| **深度学习** | 神经网络 & 反向传播         |  ⚫ 待办  |                                                           |
-|              | 计算机视觉 (CNNs)           |  ⚫ 待办  |                                                           |
-|              | 自然语言处理 (Transformers) |  ⚫ 待办  |                                                           |
-| **MLOps**    | Docker & 容器化             |  ⚫ 待办  |                                                           |
-|              | 模型部署                    |  ⚫ 待办  |                                                           |
+同时，这座花园也是我交付给世界的一份**个人作品**。我希望通过它，向外真实地表达自己，让你看到一个正在不断学习、思考和成长的个体。
 
 ---
 
-### 🚀 **项目展示**
+### 你能在这里找到什么 | What's in it for You?
+![[Game Searching GIF by Xbox.gif]]
 
-这里是我将理论知识应用于实践的一些项目。
-
-
-| 项目                       | 描述                                          | 技术栈                                       | 链接                                                                  |
-| :--------------------------- | :---------------------------------------------- | :--------------------------------------------- | :---------------------------------------------------------------------- |
-| 🎬**情感分析器**           | 使用微调BERT模型对电影评论进行分类的Web应用   | `Python`, `PyTorch`, `Hugging Face`, `Flask` | `[代码](./projects/sentiment_analyzer/)`                              |
-| 🖼️**图像分类器**         | 从零训练CNN模型，在CIFAR-10上准确率超过90%    | `Python`, `TensorFlow`, `Keras`              | `[代码](./projects/image_classifier/)`                                |
-| 📄**InternLM3-8B论文分类** | 在arXiv数据集上微调InternLM3-8B (准确率71.2%) | `Swift`, `PyTorch`, `OpenCompass`            | `[博客](https://blog.csdn.net/m0_57280180/article/details/149289311)` |
-| 🚗**RAG汽车问答**          | 基于汽车手册知识库的RAG问答系统               | `Python`, `PyTorch`, `RAG`                   | `[Notebook](./projects/RAG/RAG汽车智能问答.ipynb)`                    |
-| 🌍**阿拉伯语微调**         | 低资源语言微调实践                            | `Python`, `PyTorch`                          | `[Notebook](./projects/fine-tuning/阿拉伯语微调实践.ipynb)`           |
+我希望我的花园能为你提供：
+* 🌱 **共同成长的陪伴**：或许我的学习路径能给你带来启发，我们可以在此交流心得，共同进步。
+* 💡 **不期而遇的灵感**：在我分享的思考或项目中，可能藏着能点亮你思路的火花。
+* 🧭 **一份真诚的记录**：一个普通人如何通过持续学习和输出，构建自己知识体系的真实过程。
 
 ---
 
-### 📚 **精选资源**
+### 开始探索 | Start Exploring
 
-我个人收藏的高质量AI/ML学习资源。
+![[Confused Oh No GIF by Minecraft.gif]]
+为了让你不迷路，这里是几个主要的入口：
 
-#### 📖 **书籍**
-
-- [《动手学机器学习》(Hands-On Machine Learning)](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/)
-- [《Python深度学习》(Deep Learning with Python)](https://www.manning.com/books/deep-learning-with-python-second-edition)
-
-#### 🎓 **在线课程**
-
-* LLM张老师
-
-- [吴恩达机器学习专项课程](https://www.coursera.org/specializations/machine-learning-introduction)
-- [fast.ai - 深度学习实战](https://course.fast.ai/)
-
-#### 🛠️ **必备工具**
-
-- [Hugging Face](https://huggingface.co/) - NLP模型中心
-- [Weights & Biases](https://wandb.ai/) - 实验跟踪
-- [Papers with Code](https://paperswithcode.com/) - 最新研究论文
+* 📚 **[学习笔记]**：这里是我系统学习知识的整理和沉淀。
+* 🤔 **[深度思考]**：一些非技术性的、关于生活和个人成长的漫谈。
+* 🚀 **[我的项目]**：从0到1，我引以为豪的创造。
+* 🏷️ **[所有标签]**：通过标签，快速找到你感兴趣的话题。
+* 📅 **[文章归档]**：按时间顺序，浏览我所有的文章。
 
 ---
 
-### 🧑‍🏫 **巨人肩膀**
+花园的大门永远敞开，欢迎随时来逛逛，也欢迎随时交流
+email：jiarenyou460@gmail.com
 
-领域内专家的启发：
-
-- [LLM张老师的博客](https://www.waylandz.com/) 
-
----
-
-### 📊 **精品网站**
-- [LLM Course](https://github.com/mlabonne/llm-course)
-- [500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects)
-- [awesome-ai-products](https://latentbox.com/zh/awesome-ai-products)
-- [LLM学习路线图](https://github.com/datawhalechina/thorough-pytorch)
-- [上海交通大学LLM课](https://github.com/Lordog/dive-into-llms)
-- [LLM-Cookbook](https://github.com/datawhalechina/llm-cookbook)
-
-
-
-### 🤝 **贡献**
-
-虽然这主要是我的个人学习仓库，但我非常欢迎任何建议和反馈！如果你发现错误或有改进想法，请：
-
-1. 提交一个Issue进行讨论
-2. Fork仓库并提交Pull Request
-
----
-
-### 📜 **许可证**
-
-本项目采用 **MIT许可证** 授权 - 详情请见 [LICENSE](./LICENSE) 文件。
+**愿你在这里，也能找到属于自己的那颗种子。**

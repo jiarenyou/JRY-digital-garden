@@ -11,10 +11,14 @@
             "id": "753711c03efa556d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "index"
             }
           }
         ]
@@ -163,6 +167,13 @@
   },
   "active": "753711c03efa556d",
   "lastOpenFiles": [
+    "笔记/picture/Confused Oh No GIF by Minecraft.gif",
+    "笔记/picture/Game Searching GIF by Xbox.gif",
+    "笔记/picture/Gemini_Generated_Image_frh6wifrh6wifrh6.png",
+    "笔记/picture/peace butterfly Sticker.gif",
+    "笔记/picture",
+    "笔记/新建文件夹",
+    "新建文件夹",
     "index.md",
     "AI/projects/fine-tuning/书生论文分类模型微调/data_clean_process.py",
     "AI/projects/RAG/RAG汽车智能问答.ipynb",
@@ -182,10 +193,7 @@
     "AI/projects/fine-tuning/create_finetuning_datasets.py",
     "AI/projects/RAG",
     "AI/projects/Kairos",
-    "AI/projects/fine-tuning",
-    "AI/projects",
     "AI/papers/论文导航.md",
-    "AI/papers",
     "AI/notes/LLM张老师/【9】MHA、MQA、GQA各种注意力变种机制讲解.md",
     "AI/notes/LLM张老师/【8】KV Cache 原理讲解.md",
     "AI/notes/LLM张老师/【7】Flash Attention 原理讲解.md",
@@ -198,7 +206,6 @@
     "AI/notes/LLM张老师/【13】GPTQ、AWQ、GGUF等模型量化概念讲解.md",
     "AI/notes/LLM张老师/【12】LoRA、QLoRA 讲解.md",
     "AI/notes/LLM张老师/【11】Sinusoidal、RoPE、ALiBi等各类位置信息编码.md",
-    "AI/notes/LLM张老师/【10】Sparse Attention & Infini Attention 稀疏注意力和无限注意力.md",
     "utils/png/owl-7431340_1280.jpg"
   ]
 }

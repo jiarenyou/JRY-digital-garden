@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "深度思考/毒箭之喻：应对间歇性努力.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "毒箭之喻：应对间歇性努力"
+            }
+          },
+          {
+            "id": "8f14b62f52336889",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习笔记/LLM张老师/【1】什么是线性变换 Linear Transformation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "【1】什么是线性变换 Linear Transformation"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,50 +177,53 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "753711c03efa556d",
+  "active": "8f14b62f52336889",
   "lastOpenFiles": [
-    "笔记/picture/Confused Oh No GIF by Minecraft.gif",
-    "笔记/picture/Game Searching GIF by Xbox.gif",
-    "笔记/picture/Gemini_Generated_Image_frh6wifrh6wifrh6.png",
-    "笔记/picture/peace butterfly Sticker.gif",
-    "笔记/picture",
-    "笔记/新建文件夹",
+    "文章归档/文化/赵鼎新老师的未来洞察：r策略与K策略、末梢重及同构概念解析.md",
+    "文章归档/文化/岩中花树的故事.md",
+    "文章归档/文化/吴军：成长的三个维度.md",
+    "文章归档/文化/关于历史认知、信息筛选与不变规律的思考.md",
+    "文章归档/文化/十三邀--对话马东.md",
+    "文章归档/文化/儒家的失守.md",
+    "文章归档/文化/经济学中“知识”的了解.md",
+    "文章归档/文化/经济学大师系列-弗里德里希·哈耶克.md",
+    "文章归档/文化/慧能和一元论，二元论.md",
+    "文章归档/文化/关于占卜的不可证伪性的探讨.md",
+    "文章归档/文化/公地的悲剧.md",
+    "文章归档/文化/对孔子“吾十有五而志与学...”的另一种解释和启示.md",
+    "文章归档/文化/从法律经济学角度了解公平效率.md",
+    "文章归档/艺术/卡农、赋格.md",
+    "文章归档/艺术/姜文：什么是电影的台词.md",
+    "文章归档/技术/AI/Xtuner：大模型微调快速上手.md",
+    "文章归档/文化/认知的边界.md",
+    "文章归档/技术/AI/warmup_ratio (预热比例).md",
+    "文章归档/技术/AI/transformer中QKV矩阵分别代表什么.md",
+    "文章归档/技术/AI/Transformer.md",
+    "文章归档/技术/AI/swift框架中swift_output输出的是什么.md",
+    "文章归档/技术/AI/DataLab 基于LLM的统一BI平台.md",
+    "文章归档/技术/AI/面向知识的检索-增强生成综述.md",
+    "文章归档/技术/AI/关于Transformer和MoE框架的一点思考.md",
+    "文章归档/技术/机器学习/XGBoost.md",
+    "文章归档/技术/机器学习/SVM 支持向量机.md",
+    "文章归档/技术/大数据",
+    "深度思考",
     "新建文件夹",
-    "index.md",
+    "文章归档/picture/Confused Oh No GIF by Minecraft.gif",
+    "文章归档/picture/Game Searching GIF by Xbox.gif",
+    "文章归档/picture/Gemini_Generated_Image_frh6wifrh6wifrh6.png",
+    "文章归档/picture/peace butterfly Sticker.gif",
+    "文章归档/picture",
+    "笔记/新建文件夹",
     "AI/projects/fine-tuning/书生论文分类模型微调/data_clean_process.py",
     "AI/projects/RAG/RAG汽车智能问答.ipynb",
-    "AI/projects/Kairos/情绪记录App市场调研分析_.md",
-    "AI/projects/Kairos/tech.md",
-    "AI/projects/Kairos/tasks.md",
-    "AI/projects/Kairos/structure.md",
-    "AI/projects/Kairos/requirements.md",
-    "AI/projects/Kairos/README.md",
-    "AI/projects/Kairos/product.md",
-    "AI/projects/Kairos/plan.md",
-    "AI/projects/Kairos/Karios程序战略蓝图.md",
-    "AI/projects/Kairos/DEVELOPMENT.md",
-    "AI/projects/Kairos/design.md",
     "AI/projects/fine-tuning/阿拉伯语微调实践.ipynb",
     "AI/projects/fine-tuning/书生论文分类模型微调",
     "AI/projects/fine-tuning/create_finetuning_datasets.py",
-    "AI/projects/RAG",
-    "AI/projects/Kairos",
-    "AI/papers/论文导航.md",
-    "AI/notes/LLM张老师/【9】MHA、MQA、GQA各种注意力变种机制讲解.md",
-    "AI/notes/LLM张老师/【8】KV Cache 原理讲解.md",
-    "AI/notes/LLM张老师/【7】Flash Attention 原理讲解.md",
-    "AI/notes/LLM张老师/【6】手写 Inference.py 大模型代码逻辑.md",
-    "AI/notes/LLM张老师/【5】手写 Train.py 大模型代码逻辑.md",
-    "AI/notes/LLM张老师/【4】手写 Model.py 大模型代码逻辑.md",
-    "AI/notes/LLM张老师/【3】Scaling Law & 模型计算量介绍.md",
-    "AI/notes/LLM张老师/【2】大模型的Temperature、Top-P、Top-K、Greedy Search、Beem Search.md",
-    "AI/notes/LLM张老师/【1】什么是线性变换 Linear Transformation.md",
-    "AI/notes/LLM张老师/【13】GPTQ、AWQ、GGUF等模型量化概念讲解.md",
-    "AI/notes/LLM张老师/【12】LoRA、QLoRA 讲解.md",
-    "AI/notes/LLM张老师/【11】Sinusoidal、RoPE、ALiBi等各类位置信息编码.md",
     "utils/png/owl-7431340_1280.jpg"
   ]
 }

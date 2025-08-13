@@ -1,4 +1,7 @@
 [
   "obsidian-image-auto-upload-plugin",
-  "editing-toolbar"
+  "editing-toolbar",
+  "obsidian-git",
+  "templater-obsidian",
+  "multi-column-markdown"
 ]

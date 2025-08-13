@@ -1,9 +1,16 @@
+---
+title: 🌱 JRY's digital garden 🚀
+---
 
-# 🌱 JRY's digital garden 🚀
+# 🌟 🌱 欢迎来到我的数字花园 🌱
 
-### 🌟# 🌱 欢迎来到我的数字花园 🌱
+
 
 ![[peace butterfly Sticker.gif]]
+
+
+
+
 你好，我是Zeno's Tortoise！很高兴你能在浩瀚的互联网中发现我的这片小小园地。
 
 这里不只是一个传统的博客，更是我用心栽培的 **数字花园 (Digital Garden)**。
@@ -13,7 +20,8 @@
 ### 我的理念 | My Philosophy
 
 我一直坚信，掌握知识最好的方式是三步：**学习 ➔ 内化 ➔ 输出**。
-![[Gemini_Generated_Image_frh6wifrh6wifrh6.png]]
+
+
 这个花园，就是我实践这一理念的媒介。它是我：
 * 🧠 **知识的沉淀池**：记录我学习技术、阅读书籍、探索新领域的笔记与总结。
 * ✍️ **思想的孵化器**：分享我对技术、生活与个人成长的深度思考与感悟。
@@ -24,7 +32,9 @@
 ---
 
 ### 你能在这里找到什么 | What's in it for You?
+
 ![[Game Searching GIF by Xbox.gif]]
+
 
 我希望我的花园能为你提供：
 * 🌱 **共同成长的陪伴**：或许我的学习路径能给你带来启发，我们可以在此交流心得，共同进步。
@@ -36,6 +46,7 @@
 ### 开始探索 | Start Exploring
 
 ![[Confused Oh No GIF by Minecraft.gif]]
+
 为了让你不迷路，这里是几个主要的入口：
 
 * 📚 **[学习笔记]**：这里是我系统学习知识的整理和沉淀。
@@ -47,6 +58,8 @@
 ---
 
 花园的大门永远敞开，欢迎随时来逛逛，也欢迎随时交流
+
+
 email：jiarenyou460@gmail.com
 
 **愿你在这里，也能找到属于自己的那颗种子。**

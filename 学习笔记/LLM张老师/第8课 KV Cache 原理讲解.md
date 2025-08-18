@@ -1,9 +1,12 @@
-# 【8】KV Cache 原理讲解
+---
+title: 第8课 KV Cache 原理讲解
+draft: false
+tags:
+  - AI
+---
+ 
 
-### 视频基本信息
-- **视频标题**: 【8】KV Cache 原理讲解
-- **视频标签**: AI大模型, 大语言模型, 训练大模型, 自学大模型
-
+<iframe width="560" height="315" src="https://player.bilibili.com/player.html?autoplay=0&bvid=BV17CPkeEEzk" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 ### 目录
 - [1. KV Cache 核心概念](#1-kv-cache-核心概念)
 - [2. Self-Attention 计算回顾](#2-self-attention-计算回顾)

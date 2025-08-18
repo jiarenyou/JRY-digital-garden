@@ -1,4 +1,11 @@
-# 视频学习笔记：MHA、MQA、GQA各种注意力变种机制讲解
+---
+title: 第9课 MHA、MQA、GQA各种注意力变种机制讲解
+draft: false
+tags:
+  - AI
+---
+ 
+<iframe width="560" height="315" src="https://player.bilibili.com/player.html?autoplay=0&bvid=BV17CPkeEE5d" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 ## 目录
 1.  [视频基本信息](#1-视频基本信息)

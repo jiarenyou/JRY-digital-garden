@@ -1,4 +1,11 @@
-#AI
+---
+title: swift框架中swift_output输出的是什么
+draft: false
+tags:
+  - AI
+---
+ 
+
 ### 1. `swift_output` 文件中的模型是什么？
 
 在 SWIFT 框架中，使用像 LoRA (Low-Rank Adaptation) 这样的 PEFT 方法进行微调后，`swift_output` 文件夹中得到的**并不是一个完整的、可以独立运行的模型**。

@@ -1,40 +1,12 @@
 ---
-obsidian-note-status:
-  - completed
+title: 第5课 手写 Train.py 大模型代码逻辑
+draft: false
+tags:
+  - AI
 ---
+ 
 
-## 目录
-- [视频基本信息](#视频基本信息)
-- [内容总结与提炼](#内容总结与提炼)
-  - [核心主题与目标](#核心主题与目标)
-  - [关键知识点梳理](#关键知识点梳理)
-  - [逻辑结构与关系](#逻辑结构与关系)
-  - [重要细节与论证](#重要细节与论证)
-- [总结与复习](#总结与复习)
-  - [核心要点回顾](#核心要点回顾)
-  - [易混淆点/难点](#易混淆点难点)
-  - [启发与思考](#启发与思考)
-- [1. `model.py` 回顾与 `generate` 方法实现](#1-modelpy-回顾与-generate-方法实现)
-  - [1.1. `Model` 类回顾](#11-model-类回顾)
-  - [1.2. `generate` 方法的核心逻辑](#12-generate-方法的核心逻辑)
-  - [1.3. `generate` 方法代码详解](#13-generate-方法代码详解)
-- [2. `train.py` 脚本编写](#2-trainpy-脚本编写)
-  - [2.1. 数据加载与预处理](#21-数据加载与预处理)
-  - [2.2. 数据集划分](#22-数据集划分)
-  - [2.3. `get_batch` 函数：获取数据批次](#23-get_batch-函数获取数据批次)
-  - [2.4. `estimate_loss` 函数：损失评估](#24-estimate_loss-函数损失评估)
-  - [2.5. 模型实例化与优化器定义](#25-模型实例化与优化器定义)
-  - [2.6. 训练主循环 (Training Loop)](#26-训练主循环-training-loop)
-  - [2.7. 运行与调试](#27-运行与调试)
-- [AI 总结](#ai-总结)
-
----
-
-## 视频基本信息
-- **视频主题/标题**: 【5】手写 Train.py 大模型代码逻辑
-- **视频来源/讲师**: (未提供)
-- **视频时长**: 约 44 分钟
-
+<iframe width="560" height="315" src="https://player.bilibili.com/player.html?autoplay=0&bvid=BV1JBPkeQEj9" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 ## 内容总结与提炼
 
 ### 核心主题与目标
@@ -115,7 +87,7 @@ obsidian-note-status:
     - **设计思想**: 通过 `y_batch` 是否为空，实现了训练和推理逻辑的复用。
         - **训练时**: `x_batch` 和 `y_batch` 都传入，计算 `loss`。
         - **推理时**: 只传入 `x_batch`，`loss` 为 `None`。
-*Screenshot-[00:53]*
+
 
 ### 1.2. `generate` 方法的核心逻辑
 - **目的**: 实现模型的推理功能，即根据输入的 `prompt` (一段文本) 生成后续的文本。
@@ -125,7 +97,7 @@ obsidian-note-status:
     3.  由于模型的上下文长度 (`context_length`) 有限，需要从序列的末尾截取固定长度的片段作为新的输入。
     4.  重复以上步骤，直到生成所需数量的 `token`。
 - **循环**: 该方法的核心是一个 `for` 循环，循环次数由 `max_new_tokens` 参数决定，即希望生成的新 `token` 数量。
-*Screenshot-[03:40]*
+
 
 ### 1.3. `generate` 方法代码详解
 1.  **循环设置**:
@@ -136,7 +108,7 @@ obsidian-note-status:
     - `x_cropped = x[:, -context_length:]`
     - `x` 的形状为 `(B, T)`，其中 `B` 是 `batch_size`，`T` 是时间步/序列长度。
     - `[:, -context_length:]` 表示对第二个维度（时间步）进行切片，只保留从后往前数的 `context_length` 个 `token`。这确保了输入模型的序列长度始终是固定的。
-*Screenshot-[05:21]*
+
 
 3.  **获取预测 `logits`**:
     - `logits, loss = self(x_cropped)`
@@ -147,7 +119,7 @@ obsidian-note-status:
     - `logits = logits[:, -1, :]`
     - 我们只关心最后一个时间步的预测结果，因为它对应着下一个 `token` 的概率分布。
     - 切片后，`logits` 的形状变为 `(B, vocab_size)`。
-*Screenshot-[11:06]*
+
 
 5.  **应用 `temperature`**:
     - `logits = logits / temperature`
@@ -164,13 +136,12 @@ obsidian-note-status:
     - `torch.multinomial` 根据输入的概率分布 `probs` 进行采样，随机抽取 `num_samples` 个 `token`。
     - 相比于 `argmax` (总是选择概率最高的 `token`)，`multinomial` 引入了随机性，可以生成更多样化的文本。
     - `x_next` 的形状为 `(B, 1)`。
-*Screenshot-[13:08]*
 
 8.  **拼接新 `token`**:
     - `x = torch.cat([x, x_next], dim=1)`
     - 将新生成的 `token` (`x_next`) 拼接到原始序列 `x` 的末尾（在 `dim=1`，即时间步维度上）。
     - 拼接后的 `x` 将在下一次循环中被再次截断和处理。
-*Screenshot-[15:19]*
+
 
 9.  **返回结果**:
     - `return x`
@@ -195,7 +166,7 @@ obsidian-note-status:
   tokenized_text = tokenizer.encode(text)
   data = torch.tensor(tokenized_text, dtype=torch.long, device=device)
   ```
-*Screenshot-[17:10]*
+
 
 ### 2.2. 数据集划分
 - 将整个数据集按 90% 和 10% 的比例划分为训练集 (`train_data`) 和验证集 (`val_data`)。
@@ -204,7 +175,6 @@ obsidian-note-status:
   train_data = data[:n]
   val_data = data[n:]
   ```
-*Screenshot-[20:28]*
 
 ### 2.3. `get_batch` 函数：获取数据批次
 - **功能**: 从指定的数据集（训练集或验证集）中随机抽取一个批次 (`batch`) 的数据。
@@ -223,7 +193,6 @@ obsidian-note-status:
         - `y_batch = torch.stack(y)`
         - `torch.stack` 将列表中的多个 `Tensor` 堆叠成一个更高维度的 `Tensor`，形成批次。
     5.  **返回批次**: `return x_batch, y_batch`
-*Screenshot-[26:13]*
 
 ### 2.4. `estimate_loss` 函数：损失评估
 - **目的**: 在训练过程中，定期评估模型在训练集和验证集上的损失，以监控训练状态。
@@ -232,7 +201,7 @@ obsidian-note-status:
     - 循环 `eval_iters` 次，对训练集和验证集分别调用 `get_batch` 获取数据，并计算 `loss`。
     - 将每次计算的 `loss` 累加，最后求平均值，得到更稳定的损失评估。
     - 返回一个包含 `train_loss` 和 `val_loss` 的字典。
-*Screenshot-[38:02]*
+
 
 ### 2.5. 模型实例化与优化器定义
 - **模型**:
@@ -247,7 +216,7 @@ obsidian-note-status:
   ```
   - `model.parameters()`: 将模型的所有可训练参数传递给优化器。
   - `lr`: 设置学习率。
-*Screenshot-[31:32]*
+
 
 ### 2.6. 训练主循环 (Training Loop)
 - **循环**: `for step in range(max_iters):`
@@ -264,7 +233,7 @@ obsidian-note-status:
         - `loss.backward()`: 根据 `loss` 计算所有参数的梯度。
     5.  **更新参数**:
         - `optimizer.step()`: 优化器根据计算出的梯度更新模型参数。
-*Screenshot-[29:21]*
+
 
 ### 2.7. 运行与调试
 - **保存模型**: 训练循环结束后，保存模型的状态字典。
@@ -274,9 +243,9 @@ obsidian-note-status:
 - **运行脚本**:
   - 启动训练后，控制台会按 `eval_interval` 的频率打印损失值。
   - 观察 `train_loss` 和 `val_loss` 的变化趋势，是判断模型训练是否正常的重要依据。
-*Screenshot-[43:08]*
 
-## AI 总结
+
+## 总结
 本视频详细演示了如何从零开始编写一个用于训练大语言模型的 `train.py` 脚本。首先，视频回顾并完成了 `model.py` 中用于文本生成的 `generate` 方法，阐述了其自回归和循环采样的核心逻辑。随后，重点转向 `train.py` 的构建，内容涵盖了从加载原始文本数据、使用 `tiktoken` 进行分词、将数据切分为训练集和验证集，到实现一个高效的 `get_batch` 函数来随机生成数据批次。
 
 视频的核心部分是训练流程的实现，包括：实例化模型、定义 `AdamW` 优化器、构建主训练循环。在循环中，详细讲解了前向传播计算损失、反向传播计算梯度、以及优化器更新参数这三大关键步骤。此外，视频还强调了通过编写 `estimate_loss` 函数并定期在训练和验证集上评估损失的重要性，这是监控模型性能和防止过拟合的关键实践。整个过程为学习者提供了一套完整、可复现的大模型训练代码框架。

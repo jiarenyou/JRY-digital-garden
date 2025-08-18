@@ -1,5 +1,10 @@
-
-#AI 
+---
+title: transformer中QKV矩阵分别代表什么
+draft: false
+tags:
+  - AI
+---
+ 
 
 在 Transformer 模型中，**Q、K、V 分别代表 Query（查询）、Key（键）和 Value（值）**，是自注意力机制（Self-Attention）的核心组件，灵感来源于信息检索系统。
 

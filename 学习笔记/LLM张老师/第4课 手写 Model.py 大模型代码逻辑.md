@@ -1,7 +1,11 @@
-### 视频基本信息
-- **视频主题/标题**：【4】手写 Model.py 大模型代码逻辑
-- **视频来源/讲师**：(未提供)
-- **视频时长**：约 1 小时 4 分钟
+---
+title: 第4课 手写 Model.py 大模型代码逻辑
+draft: false
+tags:
+  - AI
+---
+ 
+<iframe width="560" height="315" src="https://player.bilibili.com/player.html?autoplay=0&bvid=BV1E6PkenEff" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 ### 内容总结与提炼
 - **核心主题与目标**：本视频的核心目标是带领观众从零开始，手写一个功能完整、结构清晰的大语言模型 `Model.py` 文件。与系列课第一阶段的步骤化模拟不同，本次旨在创建一个可封装、可复用的类结构，将训练、推理、微调等流程分离开，实现一个类似 Hugging Face 但更具可控性的 Transformer 模型。最终目标是产出一个既可用于学习，也可用于生产环境的模型代码。
@@ -72,7 +76,6 @@
     ```python
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     ```
-*Screenshot-[03:46]*
 
 ## 构建前馈网络 (FeedForward)
 前馈网络（Feed-Forward Network）是 Transformer Block 中的一个重要组成部分。它包含两个线性层和一个非线性激活函数。
@@ -85,7 +88,7 @@
     2.  `nn.ReLU()`: 使用 ReLU作为激活函数，引入非线性。
     3.  `nn.Linear(4 * d_model, d_model)`: 第二个线性层，将维度从 `4 * d_model` 压缩回 `d_model`。
     4.  `nn.Dropout(dropout)`: 在最后应用 Dropout。
-*Screenshot-[04:47]*
+
 - **`forward` 方法**：
     - 定义了数据通过该模块时的前向传播路径。
     - 直接调用在 `__init__` 中定义好的 `nn.Sequential` 对象即可。
@@ -96,8 +99,6 @@
 
 ## 构建单头注意力机制 (Attention)
 这是实现自注意力机制的核心部分，首先从单个头的逻辑开始。
-
-*Screenshot-[08:44]*
 
 - **定义 `Attention` 类**：
     - 同样继承自 `nn.Module`。
@@ -122,7 +123,6 @@
         - `v = self.W_v(x)`
         - 输入 `x` 的维度是 `(B, T, C)` 即 `(batch, time_step, d_model)`。
         - 输出的 Q, K, V 维度是 `(B, T, H)` 即 `(batch, time_step, head_size)`。
-*Screenshot-[14:41]*
     2.  **计算注意力分数 (Attention Scores)**：
         - `scores = q @ k.transpose(-2, -1)`: Q 和 K 的转置进行矩阵乘法。
         - 维度变化：`(B, T, H) @ (B, H, T) -> (B, T, T)`。
@@ -142,8 +142,6 @@
 ## 构建多头注意力机制 (MultiHeadAttention)
 将多个单头注意力机制并行运行，并将它们的结果拼接起来。
 
-*Screenshot-[23:34]*
-
 - **定义 `MultiHeadAttention` 类**：
     1.  **`__init__` 构造函数**：
         - `self.heads = nn.ModuleList([Attention() for _ in range(n_head)])`: 使用列表推导式和 `nn.ModuleList` 创建 `n_head` 个独立的 `Attention` 实例。`nn.ModuleList` 确保这些子模块能被 `PyTorch` 正确识别和管理。
@@ -158,8 +156,6 @@
 
 ## 构建 Transformer 块 (TransformerBlock)
 一个完整的 Transformer Block 包含一个多头注意力模块和一个前馈网络模块，每个模块前后都有残差连接和层归一化。
-
-*Screenshot-[30:18]*
 
 - **定义 `TransformerBlock` 类**：
     - **`__init__` 构造函数**：
@@ -183,8 +179,6 @@
 ## 构建最终模型 (Model)
 这是顶层类，它将所有组件整合在一起，形成一个完整的语言模型。
 
-*Screenshot-[33:42]*
-
 - **定义 `Model` 类**：
     - **`__init__` 构造函数**：
         - `self.token_embedding_table = nn.Embedding(vocab_size, d_model)`: 词嵌入表，将 token 索引映射为 `d_model` 维的向量。`vocab_size` 是词汇表大小。
@@ -201,7 +195,6 @@
         2.  生成 `position` 张量（0 到 `context_len-1`）。
         3.  计算分母项 `div_term`，即 $10000^{2i/d_{model}}$。
         4.  分别计算 `sin` 和 `cos` 值，并交错填充到 `pe` 的偶数和奇数列。
-*Screenshot-[44:36]*
 - **`forward` 方法**：
     - `forward(self, x_batch, y_batch=None)`: 接收训练输入 `x_batch` 和目标 `y_batch`（在推理时为 `None`）。
     1.  **获取输入维度**：`B, T = x_batch.shape`。
@@ -216,18 +209,12 @@
         - **维度调整**：`F.cross_entropy` 要求 `logits` 是二维 `(N, C)`，`target` 是一维 `(N)`。因此需要将 `logits` 和 `y_batch` 从 `(B, T, C)` 和 `(B, T)` 分别 `view` 或 `reshape` 为 `(B*T, C)` 和 `(B*T)`。
         - `loss = F.cross_entropy(logits.view(B*T, vocab_size), y_batch.view(B*T))`。
     9.  **返回结果**：返回 `logits` 和 `loss`。
-*Screenshot-[56:41]*
 - **`generate` 方法 (推理)**：
     - 这是用于生成新 token 的方法，在视频末尾被提及但未详细实现。它会循环调用 `forward` 方法来逐个生成 token。
 
 ## 代码修正与补充
 视频末尾对代码进行了一些细节修正和补充。
-*Screenshot-[02:25]*
-
 1.  **`bias=False`**：在 `Attention` 类的 `W_q`, `W_k`, `W_v` 线性层中，明确设置 `bias=False`。这是一种常见的实践，因为偏置项在后续的层归一化中可能会被抵消，去掉它可以减少不必要的参数。
 2.  **`torch.cat` 的 `dim` 参数**：在 `MultiHeadAttention` 中，`torch.cat(out, dim=-1)` 明确了在最后一个维度上进行拼接。
 3.  **`F.softmax` 的 `dim` 参数**：在 `Attention` 类中，`F.softmax(scores, dim=-1)` 明确了在最后一个维度（即对每个 query 的 key 权重）上进行 softmax。
 4.  **`view` 方法的使用**：修正了 `cross_entropy` 前的维度变换，应在张量对象上调用 `.view()` 方法，例如 `logits.view(...)` 和 `y_batch.view(...)`。
-
-## AI 总结
-该视频详细地展示了如何使用 `PyTorch` 从零开始手写一个 Transformer 模型的 `Model.py` 文件。通过自底向上的方式，课程依次构建了前馈网络、单头与多头注意力、以及完整的 Transformer 块，最终将它们整合成一个功能齐全的 `Model` 类。视频不仅覆盖了 Transformer 的核心理论，如缩放点积注意力、因果掩码、位置编码和残差连接，还深入讲解了 `PyTorch` 的实用技巧，如 `nn.ModuleList`、`nn.Sequential` 和 `register_buffer` 的应用。最终产出的代码结构清晰、模块化，为后续的训练和推理任务奠定了坚实的基础。

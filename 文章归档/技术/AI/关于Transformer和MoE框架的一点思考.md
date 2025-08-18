@@ -1,9 +1,16 @@
-#AI 
+---
+title: 关于Transformer和MoE框架的一点思考
+draft: false
+tags:
+  - AI
+---
 
-[[Transformer]]
+
+
 ### 我的问题
 大模型分为transformer架构和MoE架构，李宏毅老师说，大模型是一个参数量巨大的函数式，比如y=w1x1+w2x2+...+wnxn，我想说的是transformer架构可以这么理解，MoE框架是否可以理解为多段函数式，专家混合模型，根据用户输入的不同，激活不同的专家，就如同激活多段函数中的函数式。 
 
+[[Transformer]]
 
 ---
 

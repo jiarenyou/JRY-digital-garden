@@ -4,39 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "7e73e1547b589033",
+        "id": "53f9e6623d209cd7",
         "type": "tabs",
         "children": [
           {
-            "id": "753711c03efa556d",
+            "id": "2558d506f09e55a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "深度思考/毒箭之喻：应对间歇性努力.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "毒箭之喻：应对间歇性努力"
+              "title": "index"
             }
           },
           {
-            "id": "8f14b62f52336889",
+            "id": "2f4f62456c7b1d2d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习笔记/LLM张老师/【1】什么是线性变换 Linear Transformation.md",
+                "file": "文章归档/文化/儒家的失守.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "【1】什么是线性变换 Linear Transformation"
+              "title": "儒家的失守"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:经济",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -182,48 +181,48 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8f14b62f52336889",
+  "active": "2558d506f09e55a5",
   "lastOpenFiles": [
-    "文章归档/文化/赵鼎新老师的未来洞察：r策略与K策略、末梢重及同构概念解析.md",
-    "文章归档/文化/岩中花树的故事.md",
-    "文章归档/文化/吴军：成长的三个维度.md",
-    "文章归档/文化/关于历史认知、信息筛选与不变规律的思考.md",
-    "文章归档/文化/十三邀--对话马东.md",
-    "文章归档/文化/儒家的失守.md",
-    "文章归档/文化/经济学中“知识”的了解.md",
-    "文章归档/文化/经济学大师系列-弗里德里希·哈耶克.md",
+    "学习笔记/LLM张老师/第13课 GPTQ、AWQ、GGUF等模型量化概念讲解.md",
+    "学习笔记/LLM张老师/第12课 LoRA、QLoRA 讲解.md",
+    "学习笔记/LLM张老师/第11课 Sinusoidal、RoPE、ALiBi等各类位置信息编码.md",
+    "学习笔记/LLM张老师/第10课 Sparse Attention & Infini Attention 稀疏注意力和无限注意力.md",
+    "学习笔记/LLM张老师/第9课 MHA、MQA、GQA各种注意力变种机制讲解.md",
+    "学习笔记/LLM张老师/第8课 KV Cache 原理讲解.md",
+    "学习笔记/LLM张老师/第7课 Flash Attention 原理讲解.md",
+    "学习笔记/LLM张老师/第6课 手写 Inference.py 大模型代码逻辑.md",
+    "学习笔记/LLM张老师/第5课 手写 Train.py 大模型代码逻辑.md",
+    "学习笔记/LLM张老师/第4课 手写 Model.py 大模型代码逻辑.md",
+    "学习笔记/LLM张老师/第3课 Scaling Law & 模型计算量介绍.md",
+    "学习笔记/LLM张老师/第2课 大模型的Temperature、Top-P、Top-K、Greedy Search、Beem Search.md",
+    "学习笔记/LLM张老师/第1课 什么是线性变换 Linear Transformation.md",
     "文章归档/文化/慧能和一元论，二元论.md",
     "文章归档/文化/关于占卜的不可证伪性的探讨.md",
+    "文章归档/文化/关于历史认知、信息筛选与不变规律的思考.md",
     "文章归档/文化/公地的悲剧.md",
     "文章归档/文化/对孔子“吾十有五而志与学...”的另一种解释和启示.md",
     "文章归档/文化/从法律经济学角度了解公平效率.md",
-    "文章归档/艺术/卡农、赋格.md",
-    "文章归档/艺术/姜文：什么是电影的台词.md",
-    "文章归档/技术/AI/Xtuner：大模型微调快速上手.md",
-    "文章归档/文化/认知的边界.md",
-    "文章归档/技术/AI/warmup_ratio (预热比例).md",
-    "文章归档/技术/AI/transformer中QKV矩阵分别代表什么.md",
-    "文章归档/技术/AI/Transformer.md",
-    "文章归档/技术/AI/swift框架中swift_output输出的是什么.md",
-    "文章归档/技术/AI/DataLab 基于LLM的统一BI平台.md",
-    "文章归档/技术/AI/面向知识的检索-增强生成综述.md",
-    "文章归档/技术/AI/关于Transformer和MoE框架的一点思考.md",
-    "文章归档/技术/机器学习/XGBoost.md",
-    "文章归档/技术/机器学习/SVM 支持向量机.md",
+    "文章归档/读书笔记/《当下的力量》.md",
+    "深度思考/与AI的一次对话：认知的边界.md",
+    "深度思考/形而上和经验主义.md",
+    "深度思考/忒修斯之船、阿能诃鼓、金阁寺.md",
+    "深度思考/十四无忌.md",
+    "深度思考/孔子面孔的演变.md",
+    "文章归档/文化/儒家的失守.md",
+    "学习笔记/LLM张老师",
+    "学习笔记",
+    "我的项目",
+    "文章归档/other/peace butterfly Sticker.gif",
+    "文章归档/other/Gemini_Generated_Image_frh6wifrh6wifrh6.png",
+    "文章归档/other/Game Searching GIF by Xbox.gif",
+    "文章归档/other/Confused Oh No GIF by Minecraft.gif",
+    "文章归档/技术/机器学习",
     "文章归档/技术/大数据",
-    "深度思考",
-    "新建文件夹",
-    "文章归档/picture/Confused Oh No GIF by Minecraft.gif",
-    "文章归档/picture/Game Searching GIF by Xbox.gif",
-    "文章归档/picture/Gemini_Generated_Image_frh6wifrh6wifrh6.png",
-    "文章归档/picture/peace butterfly Sticker.gif",
-    "文章归档/picture",
-    "笔记/新建文件夹",
-    "AI/projects/fine-tuning/书生论文分类模型微调/data_clean_process.py",
-    "AI/projects/RAG/RAG汽车智能问答.ipynb",
-    "AI/projects/fine-tuning/阿拉伯语微调实践.ipynb",
-    "AI/projects/fine-tuning/书生论文分类模型微调",
-    "AI/projects/fine-tuning/create_finetuning_datasets.py",
+    "文章归档/技术/AI",
+    "文章归档/读书笔记",
+    "文章归档/艺术",
+    "文章归档/other",
+    "文章归档/文化",
     "utils/png/owl-7431340_1280.jpg"
   ]
 }

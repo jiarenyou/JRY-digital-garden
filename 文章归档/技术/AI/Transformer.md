@@ -1,4 +1,11 @@
-#AI 
+---
+title: Transformer
+draft: false
+tags:
+  - AI
+---
+ 
+
 # 一 引言
 Transformer 是一种用于处理序列数据的深度学习模型，最初由 Vaswani 等人在 2017 年的论文[《Attention Is All You Need》](https://arxiv.org/abs/1706.03762)中提出。它主要应用于自然语言处理（NLP）任务，并且因其在多个 NLP 基准测试中的出色表现而迅速流行。
 

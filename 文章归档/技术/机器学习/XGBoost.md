@@ -1,4 +1,10 @@
-#机器学习
+---
+title: XGBoost
+draft: false
+tags:
+  - 机器学习
+---
+ 
 # 一 简介
 
 XGBoost（eXtreme Gradient Boosting）极致梯度提升，是一种基于GBDT的算法

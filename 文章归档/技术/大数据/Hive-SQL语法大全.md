@@ -1,4 +1,10 @@
-#大数据
+---
+title: Hive-SQL语法大全
+draft: false
+tags:
+  - 大数据
+---
+
 
 ## 基于语法描述说明
 

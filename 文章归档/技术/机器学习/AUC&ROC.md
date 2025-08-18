@@ -1,5 +1,10 @@
-#机器学习
-
+---
+title: AUC&ROC
+draft: false
+tags:
+  - 机器学习
+---
+ 
 **想要了解AUC，需要先了解混淆矩阵，然后是ROC，再了解AUC**
 
 ## 混淆矩阵

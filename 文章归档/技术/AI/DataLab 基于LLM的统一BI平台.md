@@ -1,5 +1,11 @@
+---
+title: DataLab 基于LLM的统一BI平台
+draft: false
+tags:
+  - AI
+  - 大数据
+---
 
-#大数据 #AI 
 
 # 一 背景&目的
 ## 1.1 背景

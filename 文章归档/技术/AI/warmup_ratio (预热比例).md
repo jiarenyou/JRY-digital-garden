@@ -1,4 +1,10 @@
-#AI 
+---
+title: warmup_ratio (预热比例)
+draft: false
+tags:
+  - AI
+---
+ 
 
 在大模型微调训练中，预热比例`warmup_ratio`是用于控制学习率预热阶段占整个训练过程比例的一个参数。
 

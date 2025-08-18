@@ -1,5 +1,10 @@
-#大数据
-视频链接： 【黑马程序员Spark全套视频教程，4天spark3.2快速入门到精通，基于Python语言的spark教程】 https://www.bilibili.com/video/BV1Jq4y1z7VP/?p=41&share_source=copy_web&vd_source=8f9078186b93d9eee26026fd26e8a6ed
+---
+title: Spark总结
+draft: false
+tags:
+  - 大数据
+---
+
 # 一 spark简介
 ## 1.1 什么是spark
 
@@ -310,4 +315,8 @@ Spark的核心是根据RDD来实现的，Spark Scheduler则为Spark核心的重�
 # 五 SparkStreaming
 
 # 六 spark优化
+
+
+The rest of your content lives here. You can use **Markdown** here :)
+视频链接： 【黑马程序员Spark全套视频教程，4天spark3.2快速入门到精通，基于Python语言的spark教程】 https://www.bilibili.com/video/BV1Jq4y1z7VP/?p=41&share_source=copy_web&vd_source=8f9078186b93d9eee26026fd26e8a6ed
 

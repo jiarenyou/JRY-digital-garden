@@ -1,5 +1,11 @@
-#AI  
-
+---
+title: Xtuner：大模型微调快速上手
+draft: false
+tags:
+  - AI
+  - 微调
+---
+ 
 ### 一、XTuner是什么？
 
 简单来说，**XTuner 是一个轻量级、易于使用的、为大语言模型（LLM）设计的微调工具库**。

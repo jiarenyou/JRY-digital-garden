@@ -1,4 +1,11 @@
-#机器学习 
+---
+title: Adaboost
+draft: false
+tags:
+  - 机器学习
+---
+ 
+
 # 一 简介
 
 Adaboost（Adaptive Boosting， 自适应性增强），是一种集成学习模型，使用boosting的思想。它通过将多个简单模型（也称为弱学习器）组成一个复杂模型（强学习期器）来工作。

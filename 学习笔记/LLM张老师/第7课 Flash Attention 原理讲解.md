@@ -1,7 +1,11 @@
-# 视频基本信息
-- **视频主题/标题**: 【7】Flash Attention 原理讲解
-- **视频来源/讲师**: 未知
-- **视频时长**: 44分钟29秒
+---
+title: 第7课 Flash Attention 原理讲解
+draft: false
+tags:
+  - AI
+---
+ 
+<iframe width="560" height="315" src="https://player.bilibili.com/player.html?autoplay=0&bvid=BV17CPkeEEHH" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 # 目录
 - [核心主题与目标](#核心主题与目标)

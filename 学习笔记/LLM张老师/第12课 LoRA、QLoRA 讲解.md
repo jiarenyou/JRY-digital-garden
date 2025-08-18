@@ -1,11 +1,12 @@
+---
+title: 第12课 LoRA、QLoRA 讲解
+draft: false
+tags:
+  - AI
+---
 
 
 
-
-### 视频基本信息
-- **视频主题/标题**: 【12】LoRA、QLoRA 讲解
-- **视频来源/讲师**: 未知
-- **视频时长**: 17分48秒
 <iframe width="560" height="315" src="https://player.bilibili.com/player.html?autoplay=0&bvid=BV1euPkerEtL" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 ### 内容总结与提炼
 - **核心主题与目标**: 视频详细讲解了 LoRA (Low-Rank Adaptation) 和 QLoRA (Quantized LoRA) 的核心原理、计算方式及其在大型语言模型微调中的应用。目标是让观众理解如何通过这种低秩分解技术，以极小的参数量高效地微调大模型，从而降低计算资源需求。

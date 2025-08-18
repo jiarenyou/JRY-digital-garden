@@ -1,15 +1,11 @@
 ---
+title: 第11课 Sinusoidal、RoPE、ALiBi等各类位置信息编码
+draft: false
 tags:
-  - 科技/AI
-publish date: 2025-07-26T19:51:00
-reviewed date: 
-title: 【11】Sinusoidal、RoPE、ALiBi等各类位置信息编码
-source: https://www.bilibili.com/video/BV1ErPkeSEHn?spm_id_from=333.788.videopod.sections&vd_source=cff3eef3abcdb3fcf7537244dd23cb21
-description: 
-obsidian-note-status:
-  - completed
+  - AI
 ---
-
+ 
+<iframe width="560" height="315" src="https://player.bilibili.com/player.html?autoplay=0&bvid=BV1ErPkeSEHn" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 ### 目录
 - [视频基本信息](#视频基本信息)

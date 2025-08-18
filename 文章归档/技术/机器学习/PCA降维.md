@@ -1,4 +1,9 @@
-#机器学习
+---
+title: PCA降维
+draft: false
+tags:
+  - 机器学习
+---
 
 # 1 降维
 

@@ -1,4 +1,10 @@
-# 手写大模型代码逻辑：Inference.py 与代码重构
+---
+title: 第6课 手写 Inference.py 大模型代码逻辑
+draft: false
+tags:
+  - AI
+---
+ <iframe width="560" height="315" src="https://player.bilibili.com/player.html?autoplay=0&bvid=BV1zBPkeQEnv" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 ### 目录
 *   [1. 训练代码修正与概念补充](#1-训练代码修正与概念补充)

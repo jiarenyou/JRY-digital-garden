@@ -1,16 +1,12 @@
 ---
+title: 第2课 大模型的Temperature、Top-P、Top-K、Greedy Search、Beem Search
+draft: false
 tags:
-  - 科技/AI/微调
-publish date: 2025-07-13T07:33:00
-reviewed date: 
-title: 【2】模型的解码策略 Decoding Strategy
-source: https://www.bilibili.com/video/BV15mPke1EiT/?spm_id_from=333.1387.collection.video_card.click&vd_source=cff3eef3abcdb3fcf7537244dd23cb21
-description: 
-obsidian-note-status:
-  - completed
+  - AI
 ---
---- 
 
+--- 
+<iframe width="560" height="315" src="https://player.bilibili.com/player.html?autoplay=0&bvid=BV15mPke1EiT" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 ## 目录
 - [0. 问题](#0-问题)
 - [1. 解码策略 (Decoding Strategy) 概述](#1-解码策略-decoding-strategy-概述)
@@ -21,7 +17,7 @@ obsidian-note-status:
 - [6. Top-P (Nucleus) Sampling](#6-top-p-nucleus-sampling)
 - [7. Temperature (温度)](#7-temperature-温度)
 - [8. 总结与实际应用](#8-总结与实际应用)
-- [AI 总结](#ai-总结)
+
 
 ---
 ## 0. 问题
@@ -169,7 +165,6 @@ obsidian-note-status:
 
 ---
 
-## AI 总结
 本视频详细介绍了大型语言模型在生成文本时所采用的多种**解码策略**。这些策略决定了模型如何从一系列可能的下一个词元中进行选择，直接影响了输出内容的质量、多样性和创造性。
 
 核心策略包括：

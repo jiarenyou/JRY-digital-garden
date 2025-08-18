@@ -1,5 +1,10 @@
-#AI
-
+---
+title: 第13课 GPTQ、AWQ、GGUF等模型量化概念讲解
+draft: false
+tags:
+  - AI
+---
+ <iframe width="560" height="315" src="https://player.bilibili.com/player.html?autoplay=0&bvid=BV1euPkerEun" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 ## 目录
 1. [引言：揭开模型量化的神秘面纱](#1-引言揭开模型量化的神秘面纱)
 2. [核心概念：什么是模型量化？](#2-核心概念什么是模型量化)
@@ -11,9 +16,7 @@
     - [4.4. QAT (Quantization-Aware Training)](#44-qat-quantization-aware-training)
 5. [总结：量化技术的本质](#5-总结量化技术的本质)
 6. [AI 总结](#ai-总结)
-<iframe width="560" height="315" src="https://player.bilibili.com/player.html?autoplay=0&bvid=BV1euPkerEun" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 ---
-
 ## 1. 引言：揭开模型量化的神秘面纱
 
 - **消除术语壁垒**：大模型领域的许多术语听起来很复杂，如“量化 (Quantization)”、“融合 (Fusion)”，但其底层逻辑通常是直观和简单的。
@@ -121,11 +124,11 @@
 - **优势**：通过让模型在训练中主动适应精度损失，`QAT` 通常能比 `PTQ` 恢复更多的性能，获得更好的量化后效果，但实现过程也更复杂。
 *Screenshot-[15:59]*
 
-## 5. 总结：量化技术的本质
+## 5. 量化技术的本质
 
 所有介绍的量化技术，无论是 `PTQ`, `GGUF`, `AWQ` 还是 `QAT`，其核心都在于同一个目标：在 **模型尺寸/推理速度** 和 **模型性能损失** 这两个对立的因素之间找到一个最佳的平衡点。技术的演进方向，就是如何在尽可能压缩模型的同时，将性能损失降到最低。
 
-## AI 总结
+## 总结
 
 本视频系统讲解了大型语言模型的**量化 (Quantization)** 核心概念。量化并非高深技术，其本质是**降低模型参数的数值精度**（如从32位浮点数降至8位或4位整数），以实现模型压缩、降低显存占用和加速推理。
 

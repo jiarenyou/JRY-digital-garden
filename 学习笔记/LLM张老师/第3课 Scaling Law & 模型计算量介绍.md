@@ -1,15 +1,12 @@
 ---
+title: 第3课 Scaling Law & 模型计算量介绍
+draft: false
 tags:
-  - 科技/AI
-publish date: 2025-07-13T14:00:00
-reviewed date: 
-title: 【3】Scaling Law & 模型计算量介绍
-source: https://www.bilibili.com/video/BV1LmPke1EKe?spm_id_from=333.788.player.switch&vd_source=cff3eef3abcdb3fcf7537244dd23cb21
-description: 
-obsidian-note-status:
-  - completed
+  - AI
 ---
+ 
 
+<iframe width="560" height="315" src="https://player.bilibili.com/player.html?autoplay=0&bvid=BV1LmPke1EKe" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 ---
 
 ## 1. Scaling Law (扩展定律) 核心思想 

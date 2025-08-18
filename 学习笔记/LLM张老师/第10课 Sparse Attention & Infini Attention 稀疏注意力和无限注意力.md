@@ -1,9 +1,12 @@
+---
+title: 第10课 Sparse Attention & Infini Attention 稀疏注意力和无限注意力
+draft: false
+tags:
+  - AI
+---
 
-## 视频基本信息
-- **视频主题/标题**: 【10】Sparse Attention & Infini Attention 稀疏注意力和无限注意力
-- **视频来源/讲师**: 未知
-- **视频时长**: 约 35 分钟
-	<iframe width="560" height="315" src="https://player.bilibili.com/player.html?autoplay=0&bvid=BV1ErPkeSEND" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+<iframe width="560" height="315" src="https://player.bilibili.com/player.html?autoplay=0&bvid=BV1ErPkeSEND" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 ## 目录
 - [1. 引言：长上下文窗口的挑战](#1-引言长上下文窗口的挑战)

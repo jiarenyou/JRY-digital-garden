@@ -8,15 +8,6 @@ tags:
 
 
 <iframe width="560" height="315" src="https://player.bilibili.com/player.html?autoplay=0&bvid=BV1euPkerEtL" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-### 内容总结与提炼
-- **核心主题与目标**: 视频详细讲解了 LoRA (Low-Rank Adaptation) 和 QLoRA (Quantized LoRA) 的核心原理、计算方式及其在大型语言模型微调中的应用。目标是让观众理解如何通过这种低秩分解技术，以极小的参数量高效地微调大模型，从而降低计算资源需求。
-- **关键知识点梳理**:
-    1.  **LoRA 核心思想**: 源于线性代数中的低秩矩阵分解，将一个大的权重矩阵的更新量 `ΔW` 分解为两个更小的矩阵 (`B` 和 `A`) 的乘积。
-    2.  **工作原理**: 在微调时，冻结预训练模型的原始权重，只训练新增的、参数量极小的 `A` 和 `B` 矩阵。最终的权重是原始权重与 `B*A` 的和。
-    3.  **关键超参数**: `r` (rank) 和 `alpha`。`r` 控制了分解后矩阵的大小，决定了可训练参数的数量；`alpha` 是一个缩放因子，用于调整更新的幅度。
-    4.  **QLoRA**: LoRA 的量化版本，通过在量化（如4位、8位）后的模型上应用 LoRA 技术，进一步降低了微调时的显存消耗和计算成本。
-    5.  **实践应用**: 通常借助 `Hugging Face` 的 `PEFT` 库来实现，可以灵活选择要应用 LoRA 的模型层（如 `query`, `key`, `value` 等）。
-- **逻辑结构**: 视频采用“原理-实践-扩展”的结构。首先从 LoRA 的数学基础（矩阵分解）入手，解释其核心概念；然后深入到它在大模型中的具体计算公式和工作流程；接着通过代码示例和第三方库（PEFT）展示其实际应用；最后扩展到 QLoRA 的概念和总结其应用场景与注意事项。
 
 ---
 

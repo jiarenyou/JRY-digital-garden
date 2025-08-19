@@ -5,6 +5,8 @@ tags:
   - AI
 ---
  <iframe width="560" height="315" src="https://player.bilibili.com/player.html?autoplay=0&bvid=BV1euPkerEun" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+
 ## 目录
 1. [引言：揭开模型量化的神秘面纱](#1-引言揭开模型量化的神秘面纱)
 2. [核心概念：什么是模型量化？](#2-核心概念什么是模型量化)

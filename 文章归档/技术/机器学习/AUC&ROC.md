@@ -11,11 +11,11 @@ tags:
 
 先介绍下混淆矩阵
 
-|         | actual | 真实值 |     |
-| ------- | ------ | --- | --- |
-| predict |        | 1   | 0   |
-| 预测值     | 1      | TP  | FP  |
-|         | 0      | FN  | TN  |
+|         |     | actual | 真实值 |
+| ------- | --- | ------ | --- |
+|         |     | 1      | 0   |
+| predict | 1   | TP     | FP  |
+| 预测值     | 0   | FN     | TN  |
 
 recall = TP/(TP+FN)
 
@@ -27,7 +27,6 @@ TPR（真阳性率）=TP/TP+FN
 
 FPR（假阳性率）=FP/FP+TN
 
-F1
 
 $$F1 = \frac{2*precision*recall}{precesion + recall} $$
 

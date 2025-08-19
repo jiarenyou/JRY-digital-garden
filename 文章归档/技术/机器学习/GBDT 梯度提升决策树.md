@@ -21,9 +21,8 @@ tags:
 - bagging
     
     bagging之前有介绍
-    
-
-![image.png](https://build-web.oss-cn-qingdao.aliyuncs.com/my_pic_file/20250301084340.png)
+    ![image.png](https://build-web.oss-cn-qingdao.aliyuncs.com/my_pic_file/20250301084340.png)
+    ![image.png](https://build-web.oss-cn-qingdao.aliyuncs.com/my_pic_file/20250301084340.png)
 
 
 - stacking
